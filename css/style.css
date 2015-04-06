@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	background: url(../img/fundo.jpg?Asd) top center no-repeat;
+	font-family: arial;
+}
+.main{
+	width: 960px;
+	height:1080px;
+	margin:0 auto;
+}
+#defaultCountdown{
+	margin-top:60px;
+	margin-left: 43px;
+}
+.cronometro{
+	float:left;
+	  margin-top: 157px;
+}
+.countdown_row{
+	width: 960px;
+}
+.countdown_show4{
+	width: 960px;
+}
+
+#defaultCountdown{
+	float:left;
+	width:100%;
+}
+#defaultCountdown .countdown_amount{
+	margin-top:0 !important;
+	margin-left:0 !important;
+	font-size:170px;
+	color:#FFF;
+}
+#defaultCountdown .countdown_section{
+	font-size:40px;
+	float:left;
+	margin-top:-50px;
+	width:219px;
+	height: 203px;
+	color:#fff;
+}
+#dia{
+	display: none !important;
+}
+.icone{
+	 margin-top: 240px; 
+	 margin-left: 160px;
+}
+.player{
+	position: absolute;
+	margin-left:360px;
+	margin-top: 80px
+}
+.entrar{
+	width:100%;
+	float: left;
+	margin-top: 130px;
+}
+.entrar img{
+	display: block;
+	margin:0 auto;
+}
+.balao{
+	width:400px;
+	height: 326px;
+	background:url(../img/balao.png)no-repeat;
+	display: block;
+	position: absolute;
+	margin-left: 294px;
+  	margin-top: 87px;
+}
