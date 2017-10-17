@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+section#counter{
+	background: url(../img/fundo.jpg) top center no-repeat;
+	width: 100%;
+	height: 540px;
+	font-family: arial;
+}
+section#counter.hora{
+	background: url(../img/hora.jpg) top center no-repeat;
+}
+section#counter > article{
+	width: 960px;
+	margin:0 auto;
+}
+section#counter #defaultCountdown{
+	margin-top:60px;
+	margin-left: 43px;
+}
+section#counter .cronometro{
+	float:left;
+	  margin-top: 157px;
+}
+section#counter .countdown_row{
+	width: 960px;
+}
+section#counter .countdown_show4{
+	width: 960px;
+}
+
+section#counter #defaultCountdown{
+	float:left;
+	width:100%;
+}
+section#counter #defaultCountdown .countdown_amount{
+	margin-top:0 !important;
+	margin-left:0 !important;
+	font-size:170px;
+	color:#FFF;
+}
+section#counter #defaultCountdown .countdown_section{
+	font-size:40px;
+	float:left;
+	margin-top:-50px;
+	width:219px;
+	height: 203px;
+	color:#fff;
+}
